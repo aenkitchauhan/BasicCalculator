@@ -15,7 +15,6 @@ public class Main {
             System.out.println("Type [EXIT] for exit : \n");
 
             System.out.println("Enter Value 1");
-
             String s = scanner.nextLine();
 
             if (s.equalsIgnoreCase("exit"))
