@@ -15,9 +15,9 @@ public class Main {
             System.out.println("Type [EXIT] for exit : \n");
 
             System.out.println("Enter Value 1");
-            String s = scanner.nextLine();
+            String s1 = scanner.nextLine();
 
-            if (s.equalsIgnoreCase("exit"))
+            if (s1.equalsIgnoreCase("exit"))
             {
                 System.out.println("Program is terminating . .  .");
                 System.exit(0);
@@ -33,22 +33,22 @@ public class Main {
 
             switch (choice) {
                 case "+":
-                    System.out.printf("The addition of %s & %s = %f",
-                            s, s2, BasicCalculator.addition(s, s2));
+                    System.out.printf("The addition of %s1 & %s1 = %f",
+                            s1, s2, BasicCalculator.addition(s1, s2));
                     break;
                 case "-":
-                    System.out.printf("The subtraction of %s & %s = %f",
-                            s, s2, BasicCalculator.subtraction(s, s2));
+                    System.out.printf("The subtraction of %s1 & %s1 = %f",
+                            s1, s2, BasicCalculator.subtraction(s1, s2));
                     break;
 
                 case "/":
-                    System.out.printf("The divison of %s & %s = %f",
-                            s, s2, BasicCalculator.divison(s, s2));
+                    System.out.printf("The divison of %s1 & %s1 = %f",
+                            s1, s2, BasicCalculator.divison(s1, s2));
                     break;
 
                 case "*":
-                    System.out.printf("The multiplication of %s & %s = %f",
-                            s, s2, BasicCalculator.multiplication(s, s2));
+                    System.out.printf("The multiplication of %s1 & %s1 = %f",
+                            s1, s2, BasicCalculator.multiplication(s1, s2));
                     break;
 
                 default:
