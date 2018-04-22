@@ -24,7 +24,7 @@ public class Main {
             }
 
             System.out.println("Enter Value 2");
-            String string2 = scanner.nextLine();
+            String s2 = scanner.nextLine();
 
             System.out.println("Which operation do you want to perform\n" +
                     " + , / , * , - ");
@@ -34,21 +34,21 @@ public class Main {
             switch (choice) {
                 case "+":
                     System.out.printf("The addition of %s & %s = %f",
-                            s, string2, BasicCalculator.addition(s, string2));
+                            s, s2, BasicCalculator.addition(s, s2));
                     break;
                 case "-":
                     System.out.printf("The subtraction of %s & %s = %f",
-                            s, string2, BasicCalculator.subtraction(s, string2));
+                            s, s2, BasicCalculator.subtraction(s, s2));
                     break;
 
                 case "/":
                     System.out.printf("The divison of %s & %s = %f",
-                            s, string2, BasicCalculator.divison(s, string2));
+                            s, s2, BasicCalculator.divison(s, s2));
                     break;
 
                 case "*":
                     System.out.printf("The multiplication of %s & %s = %f",
-                            s, string2, BasicCalculator.multiplication(s, string2));
+                            s, s2, BasicCalculator.multiplication(s, s2));
                     break;
 
                 default:
