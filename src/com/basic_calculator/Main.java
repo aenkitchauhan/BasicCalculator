@@ -14,7 +14,7 @@ public class Main {
             System.out.println("============================");
             System.out.println("Type [EXIT] for exit : \n");
 
-            System.out.println("Enter Value 1");
+            System.out.println("Enter Value 1 : ");
             String s1 = scanner.nextLine();
 
             if (s1.equalsIgnoreCase("exit"))
@@ -23,7 +23,7 @@ public class Main {
                 System.exit(0);
             }
 
-            System.out.println("Enter Value 2");
+            System.out.println("Enter Value 2 : ");
             String s2 = scanner.nextLine();
 
             System.out.println("Which operation do you want to perform\n" +
