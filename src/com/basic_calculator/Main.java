@@ -9,9 +9,9 @@ public class Main {
 
         while (true)
         {
-            System.out.println("\n\n============================");
+            System.out.println("\n\n===============================");
             System.out.println("BASIC CALCULATOR !!!");
-            System.out.println("============================");
+            System.out.println("===============================");
             System.out.println("Type [EXIT] for exit : \n");
 
             System.out.println("Enter Value 1");
@@ -20,6 +20,7 @@ public class Main {
             if (s1.equalsIgnoreCase("exit"))
             {
                 System.out.println("Program is terminating . .  .");
+                System.exit(0);
                 System.exit(0);
             }
 
